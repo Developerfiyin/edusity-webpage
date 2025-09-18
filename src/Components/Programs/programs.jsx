@@ -12,7 +12,7 @@ const Programs = () => {
         <img src={Program1} alt="The program image" />
         <div className="caption">
           <img src={Programicon1} alt="The programming image " />
-          <p>GRraduation Degree</p>
+          <p>Graduation Degree</p>
         </div>
       </div>
       <div className="program">
