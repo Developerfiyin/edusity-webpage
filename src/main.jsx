@@ -6,5 +6,9 @@ import App from "./App.jsx";
 const Page = () => {
   return <App />;
 };
-
-createRoot(document.getElementById("root")).render(<Page />);
+(
+  <StrictMode>
+    <App />
+  </StrictMode>
+),
+  createRoot(document.getElementById("root")).render(<Page />);
