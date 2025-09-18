@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div className="about">
       <div className="about-left">
-        <img src={about} alt="the about image" />
-        <img src={playicon} alt="the play icon img" />
+        <img src={about} alt="the about image" className="about-img" />
+        <img src={playicon} alt="the play icon img" className="play-icon" />
       </div>
       <div className="about-right">
         <h3>About University</h3>
-        <h2>Nuturing tomorrow's leaders today</h2>
+        <h2>Nuturing Tomorrow's leaders today</h2>
         <p>
           Embark on a transformative educational journey with our university's
           comprehensive education programs. Our cutting-edge curriculum is
