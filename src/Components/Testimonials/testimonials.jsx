@@ -14,7 +14,7 @@ const Testimonials = () => {
       <div className="slider">
         <ul>
           <li>
-            <div className="slider">
+            <div className="slide">
               <div className="user-info">
                 <img src={user1} alt="The user 1 image" />
                 <div>
@@ -32,7 +32,7 @@ const Testimonials = () => {
           </li>
 
           <li>
-            <div className="slider">
+            <div className="slide">
               <div className="user-info">
                 <img src={user2} alt="The user 2 image" />
                 <div>
@@ -50,7 +50,7 @@ const Testimonials = () => {
           </li>
 
           <li>
-            <div className="slider">
+            <div className="slide">
               <div className="user-info">
                 <img src={user1} alt="The user 1 image" />
                 <div>
@@ -67,10 +67,6 @@ const Testimonials = () => {
             </div>
           </li>
         </ul>
-
-        <img src={user2} alt="The user 2 image " />
-        <img src={user3} alt="The user 3 image" />
-        <img src={user4} alt="The user 4 image" />
       </div>
     </div>
   );
