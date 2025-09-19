@@ -9,6 +9,11 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .gallery img {
   width: 23%;
+}
+.dark-icon {
+  background-color: #000ff0;
+  color: #fff;
 }
