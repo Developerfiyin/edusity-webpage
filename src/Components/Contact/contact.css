@@ -15,9 +15,22 @@
   font-size: 25px;
   color: #000f38;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .contact-col h3 img {
   margin-left: 10px;
   width: 35px;
+}
+
+.contact-col p {
+  max-width: 450px;
+  list-style: 0.3;
+}
+.contact-col ul li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
 }
