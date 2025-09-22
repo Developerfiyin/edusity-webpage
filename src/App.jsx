@@ -19,7 +19,7 @@ const App = () => {
         <Campus />
         <Title subTitle="TESTIMONIALS" title="What our students said" />
         <Testimonials />
-        <Title subTitle="TESTIMONIALS" title="What our students said" />
+        <Title subTitle="Contact us" title="Get in touch" />
         <Contact />
       </div>
     </div>
