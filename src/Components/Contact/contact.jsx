@@ -1,5 +1,8 @@
 import "./contact.css";
 import msgicon from "../../assets/msg-icon.png";
+import mailicon from "../../assets/mail-icon.png";
+import phoneicon from "../../assets/phone-icon.png";
+import locationicon from "../../assets/location-icon.png";
 
 const Contact = () => {
   return (
@@ -16,10 +19,15 @@ const Contact = () => {
           community.
         </p>
         <ul>
-          <li>Contact@GreatStack.dev</li>
-          <li>+1-234-577-8899</li>
           <li>
-            77 Massachusetts Ave, Cambridge <br /> Ma 02139, United States
+            Contact@GreatStack.dev <img src={mailicon} alt="The mail icon" />
+          </li>
+          <li>
+            +1-234-577-8899 <img src={phoneicon} alt="The phone icon" />
+          </li>
+          <li>
+            77 Massachusetts Ave, Cambridge <br /> Ma 02139, United States{" "}
+            <img src={locationicon} alt="The location icon" />
           </li>
         </ul>
       </div>
