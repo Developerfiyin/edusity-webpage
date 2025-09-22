@@ -18,7 +18,7 @@ const Testimonials = () => {
   };
 
   const slideBackward = () => {
-    if (tx > 0) {
+    if (tx < 0) {
       tx += 25;
     }
     slider.current.style.transform = `translateX(${tx}%)`;
@@ -78,7 +78,7 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user1} alt="The user 1 image" />
+                <img src={user3} alt="The user 1 image" />
                 <div>
                   <h3>William Jackson</h3>
                   <span>Edusity, USA</span>
@@ -96,7 +96,7 @@ const Testimonials = () => {
           <li>
             <div className="slide">
               <div className="user-info">
-                <img src={user1} alt="The user 1 image" />
+                <img src={user4} alt="The user 1 image" />
                 <div>
                   <h3>William Jackson</h3>
                   <span>Edusity, USA</span>
