@@ -1,10 +1,14 @@
 import "./contact.css";
+import msgicon from "../../assets/msg-icon.png";
 
 const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-col">
-        <h3>Send us a mesage</h3>
+        <h3>
+          Send us a mesage{" "}
+          <img src={msgicon} alt="a message icon was added here" />
+        </h3>
         <p>
           Feel free to reach through the contact for or find our information
           below. Your feedback, questions, and suggestions are important to us
