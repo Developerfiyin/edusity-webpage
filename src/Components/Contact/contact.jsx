@@ -20,14 +20,19 @@ const Contact = () => {
         </p>
         <ul>
           <li>
-            Contact@GreatStack.dev <img src={mailicon} alt="The mail icon" />
+            {" "}
+            <img src={mailicon} alt="The mail icon" />
+            Contact@GreatStack.dev
           </li>
           <li>
-            +1-234-577-8899 <img src={phoneicon} alt="The phone icon" />
+            {" "}
+            <img src={phoneicon} alt="The phone icon" />
+            +1-234-577-8899
           </li>
           <li>
-            77 Massachusetts Ave, Cambridge <br /> Ma 02139, United States{" "}
+            {" "}
             <img src={locationicon} alt="The location icon" />
+            77 Massachusetts Ave, Cambridge <br /> Ma 02139, United States{" "}
           </li>
         </ul>
       </div>
