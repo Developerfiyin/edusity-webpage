@@ -13,7 +13,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "516af617-cd78-438a-8bc2-48ab9e326c3a");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -63,10 +63,10 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <form onSubmit={onSubmit}>
-          <label htmlFor="Name"> YOUR NAME :</label> <br />
+          <label htmlFor="name"> YOUR NAME :</label> <br />
           <input
             type="text"
-            name="Your name"
+            name="name"
             placeholder="Enter your name"
             required
           />
@@ -77,9 +77,10 @@ const Contact = () => {
             name="number"
             required
           />
-          <label htmlFor="text">Enter your messages</label>
+          <label htmlFor="message">Enter your messages</label>
           <textarea
             type="text"
+            name="message"
             placeholder="send your text"
             rows="6"
             required
