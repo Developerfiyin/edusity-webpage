@@ -3,6 +3,7 @@ import msgicon from "../../assets/msg-icon.png";
 import mailicon from "../../assets/mail-icon.png";
 import phoneicon from "../../assets/phone-icon.png";
 import locationicon from "../../assets/location-icon.png";
+import arrwwhite from "../../assets/white-arrow.png";
 
 const Contact = () => {
   return (
@@ -36,7 +37,35 @@ const Contact = () => {
           </li>
         </ul>
       </div>
-      <div className="contact-col"></div>
+      <div className="contact-col">
+        <form>
+          <label htmlFor="Name"> YOUR NAME :</label> <br />
+          <input
+            type="text"
+            name="Your name"
+            placeholder="Enter your name"
+            required
+          />
+          <label htmlFor="number"> PHONE NUMBER</label>
+          <input
+            type="tel"
+            placeholder="+1-234-556-6780"
+            name="number"
+            required
+          />
+          <label htmlFor="text">Enter your messages</label>
+          <textarea
+            type="text"
+            placeholder="send your text"
+            rows="6"
+            required
+          />
+          <button type="submit" className="btn dark-icon">
+            {" "}
+            Submit now <img src={arrwwhite} alt="the white arrow icon" />
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
