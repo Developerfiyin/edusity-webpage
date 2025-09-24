@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
-import git
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
