@@ -33,7 +33,7 @@ const Navbar = () => {
 
           <li>
             {" "}
-            <Link to="programs" smooth={true} offset={0} duration={-260}>
+            <Link to="programs" smooth={true} offset={-260} duration={500}>
               {" "}
               Program
             </Link>{" "}
@@ -41,7 +41,7 @@ const Navbar = () => {
 
           <li>
             {" "}
-            <Link to="about" smooth={true} duration={500} offset={-260}>
+            <Link to="about" smooth={true} duration={500} offset={-150}>
               About us
             </Link>
           </li>
@@ -55,7 +55,7 @@ const Navbar = () => {
 
           <li>
             {" "}
-            <Link to="testimonials" smooth={true} offset={150}>
+            <Link to="testimonials" smooth={true} offset={-260} duration={500}>
               Testimonials
             </Link>
           </li>
@@ -63,7 +63,7 @@ const Navbar = () => {
           <li>
             <button className="btn">
               {" "}
-              <Link to="contact" duration={500} offset={0}>
+              <Link to="contact" duration={500} offset={-260} smooth={true}>
                 Contact us
               </Link>
             </button>
