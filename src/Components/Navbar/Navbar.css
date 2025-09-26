@@ -25,3 +25,14 @@ nav ul li {
   background: #212ea0;
   transition: 0.5s;
 }
+
+/* MEDIA QUERY */
+
+@media (max-width: 1024px) {
+  .logo {
+    width: 120px;
+  }
+  nav ul li {
+    margin: 10px 15px;
+  }
+}
