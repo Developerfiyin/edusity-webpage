@@ -37,3 +37,16 @@ a {
   width: 20px;
   margin-left: 10px;
 }
+
+/* MEDIA QUERY */
+@media (max-width: 1194px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .btn {
+    border-radius: 15px;
+    font-size: 8px;
+    padding: 12px 13px;
+  }
+}
