@@ -12,8 +12,6 @@ import {
 } from "react-scroll";
 import * as Scroll from "react-scroll";
 
-//let Link = Scroll.Link;
-
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   useEffect(() => {
@@ -35,7 +33,7 @@ const Navbar = () => {
 
           <li>
             {" "}
-            <Link to="programs" smooth={true} offset={0} duration={500}>
+            <Link to="programs" smooth={true} offset={0} duration={-260}>
               {" "}
               Program
             </Link>{" "}
@@ -43,16 +41,25 @@ const Navbar = () => {
 
           <li>
             {" "}
-            <Link to="testimonials" smooth={true}>
-              Testimonials
-            </Link>
-          </li>
-          <li>
-            {" "}
-            <Link to="about" smooth={true} duration={500} offset={0}>
+            <Link to="about" smooth={true} duration={500} offset={-260}>
               About us
             </Link>
           </li>
+
+          <li>
+            {" "}
+            <Link to="campus" smooth={true} duration={500} offset={-260}>
+              Campus
+            </Link>
+          </li>
+
+          <li>
+            {" "}
+            <Link to="testimonials" smooth={true} offset={150}>
+              Testimonials
+            </Link>
+          </li>
+
           <li>
             <button className="btn">
               {" "}
